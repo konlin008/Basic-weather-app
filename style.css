@@ -82,21 +82,64 @@ body {
   margin-right: 10px;
 }
 
-.humid,.wind{
-    font-size: 28px;
-
+.humid,
+.wind {
+  font-size: 28px;
 }
 .col p {
-    color: #fff;
-    text-align: left;
-    letter-spacing: 1.15px;
-  }
+  color: #fff;
+  text-align: left;
+  letter-spacing: 1.15px;
+}
 
-.weather{
+.weather {
   display: none;
 }
-#errorMsg{
+#errorMsg {
   color: #fff;
   display: none;
-  margin-top: 20PX;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 0 0;
+    border-radius: 0px;
+    padding: 50px 30px;
+  }
+  .search_btn {
+    border-radius: 50%;
+    width: 15vw;
+    height:7vh;
+  }
+  .search_btn img {
+    width: 15px;
+  }
+  .weather_icon {
+    width: 20vh;
+    margin-top: 80px;
+  }
+  .weather h1 {
+    font-size: 4vh;
+  }
+  .weather h2 {
+    font-size: 2.5vh;
+  }
+  .col img {
+    width: 5vh;
+    margin-right: 10px;
+  }
+  .col {
+    margin-top: 200px;
+  }
+  .humid,
+  .wind {
+    font-size: 40px;
+  }
+  #errorMsg {
+    color: #fff;
+    display: none;
+    margin-top: 300px;
+  }
 }

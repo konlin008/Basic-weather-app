@@ -14,7 +14,7 @@ body {
 .card {
   width: 90%;
   max-width: 450px;
-  background: linear-gradient(135deg, #7141ca, #45ce5c);
+  background: linear-gradient(135deg, #96df43, #4a75eb);
   margin: 130px auto 0;
   text-align: center;
   border-radius: 20px;
@@ -91,3 +91,12 @@ body {
     text-align: left;
     letter-spacing: 1.15px;
   }
+
+.weather{
+  display: none;
+}
+#errorMsg{
+  color: #fff;
+  display: none;
+  margin-top: 20PX;
+}
